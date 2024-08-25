@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    background-color:#e6e7e9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    margin: 1.5rem;
+}
+
+header>h1{
+    font-size: 5rem;
+}
+
+header>nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+header>nav>button{
+    font-size: 3rem;
+    background-color: aquamarine;
+    color: darkgoldenrod;
+    font-weight: bold;
+    padding: 1rem;
+    height: fit-content;
+}
+
+.description{
+    font-size: 2rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 25px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.havenMenu>h2{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.menuContent{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+    gap: 1rem;
+    justify-content: center;
+}
+.menuContent>div{
+    border: 2px solid black;
+    margin: 0 10px;
+    /* width: fit-content; */
+    padding: 5px;
+}
+.menuContent h3{
+    font-size: 2rem;
+}
+.menuContent ul,li{
+    font-size: 1.6rem;
+    list-style-type: none;
+    text-align: left;
+}
+
+
+.havenContact{
+   line-height: 1.5;
+}
+.havenContact>h2{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.havenContact h3{
+    font-size: 2rem;
+}
+.havenContact ul,li{
+    font-size: 2rem;
+    list-style-type: none;
+    text-align: center;
+}
