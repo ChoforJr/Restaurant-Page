@@ -7,7 +7,7 @@
       "gh-deploy": "git push origin :gh-pages && git subtree push --prefix dist origin gh-pages"
 },
   "keywords": [],
-  "author": "",
+  "author": "FORSAKANG CHOFOR JUNIOR",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^7.1.2",
